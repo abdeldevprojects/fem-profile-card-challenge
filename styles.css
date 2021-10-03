@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(/images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed, fixed;
+    background-position: -10vw -55vh, 50vw 50vh;
+   
+}
+
+#card {
+    width: 375px;
+    margin: 10rem auto;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 5px 20px 100px hsl(210, 2%, 19%);
+}
+
+.blue-header .blue-image{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.whoheis {
+    text-align: center;
+    margin-top: -55px;  /* it moves the photo+name+citi up*/
+    padding-bottom: 5px;
+     /* border-bottom: 1px solid  hsl(0, 0%, 59%);  */
+}
+
+.whoheis .photo {
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.whoheis .hisname {
+    font-size: 20px;
+    color : hsl(229, 23%, 23%);
+    /* border: 1px solid black; */
+    margin-bottom: -10px;
+
+}
+
+.whoheis .age {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    padding: 8px;
+}
+
+.whoheis .citi {
+    color: hsl(227, 10%, 46%);
+    margin-bottom: 30px;
+    /* border: 1px solid black;  */
+}
+
+.whoheis .hisname, .whoheis .citi {
+    margin-top: 20px;
+}
+
+/* Gray ligne HTML */
+
+hr {
+    height: 1px;
+    background-color: hsl(0, 0%, 59%);
+    border: none;
+   
+}
+
+/* Social Media Stats*/
+
+.social-media-stats {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 15px 30px 30px 30px;
+    width: 75%;
+}
+
+.col h1 {
+    color : hsl(229, 23%, 23%);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-bottom: 5px;
+}
+
+.col p {
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+/* Footer */
+
+.attribution { 
+    color: #ffffff;
+    font-size: 12px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+
+}
+
+
+/* Media Querie :  375 px */
+
+@media (max-width:375px) {
+    #card {
+        width: 95%;    
+    }
+}
